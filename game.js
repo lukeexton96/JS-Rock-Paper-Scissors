@@ -25,7 +25,7 @@ var compare = function (choice1, choice2){
        } else { 
             return "Your Entry Was Invalid";   
        }
-}
+};
 
 var startGame = function() {
     var userChoice = prompt("Do you choose rock, paper or scissors?");
@@ -44,4 +44,4 @@ var startGame = function() {
     var computerChoiceLower = computerChoice.toLowerCase();
 
     compare(userChoiceLower, computerChoiceLower);
-}
+};
